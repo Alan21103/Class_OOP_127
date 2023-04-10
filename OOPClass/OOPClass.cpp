@@ -11,3 +11,8 @@ public: void cetak() {
 	}
 };
 
+class Matakuliah {
+private:
+	string kode;
+	string namaM;
+	int sks;
