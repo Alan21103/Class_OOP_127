@@ -25,3 +25,8 @@ public:
 		cout << "Jumlah Sks : ";
 		cin >> sks;
 	}
+	void tampil() {
+		cout << "Kode Matakuliah : ";
+		cout << "Nama Matakulia : ";
+		cout << "SKS : " << sks;
+	}
