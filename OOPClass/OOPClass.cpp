@@ -8,16 +8,6 @@ public:
 public: void cetak() {
 	cout << "NIM = " << nim;
 	cout << "\nNama = " << nama;
-}
+	}
 };
 
-class Matakuliah {
-private:
-	string kode;
-	string namaM;
-	int sks;
-public:
-	void input() {
-		cout << "Masukan kode Matakuliah : ";
-	}
-}
